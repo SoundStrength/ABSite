@@ -60,3 +60,32 @@ ul li:hover {
     line-height: 40px;
     color: #dddddd
 }
+
+.menu1 a {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.menu1 a:hover {
+    color: #333333;
+}
+
+.sectionHead {
+    background-color: #dddddd;
+    color: #333333;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 14px;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #333333;
+    display: none;
+    overflow: hidden;
+}
